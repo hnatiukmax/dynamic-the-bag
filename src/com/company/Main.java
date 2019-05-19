@@ -22,10 +22,10 @@ public class Main {
         ArrayList<Double> price4 = new ArrayList(Arrays.asList(10.0, 7.0, 1.0, 3.0, 2.0));
         double maxSize4 = 15;
 
-        System.out.println("Max price is " + maxSize(weight, price, maxSize));
+        //System.out.println("Max price is " + maxSize(weight, price, maxSize));
         //System.out.println("Max price is " + maxSize(weight2, price2, maxSize2));
         //System.out.println("Max price is " + maxSize(weight3, price3, maxSize3));
-        //System.out.println("Max price is " + maxSize(weight4, price4, maxSize4));
+        System.out.println("Max price is " + maxSize(weight4, price4, maxSize4));
     }
 
     public  static double maxSize(ArrayList<Double> weight, ArrayList<Double> price, double maxWeight) {
