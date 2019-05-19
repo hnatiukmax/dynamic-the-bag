@@ -18,9 +18,14 @@ public class Main {
         ArrayList<Double> price3 = new ArrayList(Arrays.asList(9.0,8.0,7.0,5.0,4.0,4.0,4.0));
         double maxSize3 = 9;
 
+        ArrayList<Double> weight4 = new ArrayList(Arrays.asList(9.0, 12.0, 2.0, 7.0, 5.0));
+        ArrayList<Double> price4 = new ArrayList(Arrays.asList(10.0, 7.0, 1.0, 3.0, 2.0));
+        double maxSize4 = 15;
+
         //System.out.println("Max price is " + maxSize(weight, price, maxSize));
         //System.out.println("Max price is " + maxSize(weight2, price2, maxSize2));
-        System.out.println("Max price is " + maxSize(weight3, price3, maxSize3));
+        //System.out.println("Max price is " + maxSize(weight3, price3, maxSize3));
+        System.out.println("Max price is " + maxSize(weight4, price4, maxSize4));
     }
 
     public  static double maxSize(ArrayList<Double> weight, ArrayList<Double> price, double maxWeight) {
